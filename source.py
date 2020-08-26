@@ -12,3 +12,5 @@ day = datetime.date.today().day
 delta_day = (int(lst[0])-day)
 if delta_day <0:
     delta_day+=31
+
+print (delta_mon, delta_day)
